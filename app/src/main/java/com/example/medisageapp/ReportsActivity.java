@@ -1,6 +1,7 @@
 package com.example.medisageapp;
 
 import android.content.Intent;
+import com.google.firebase.auth.FirebaseAuth;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
@@ -65,8 +66,13 @@ public class ReportsActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.reportsRecyclerView);
 
         // 🔹 Firebase
+        String uid = FirebaseAuth.getInstance()
+                .getCurrentUser()
+                .getUid();
+
         databaseReference = FirebaseDatabase.getInstance()
-                .getReference("MedicalReports");
+                .getReference("MedicalReports")
+                .child(uid);
 
         reportList = new ArrayList<>();
 
