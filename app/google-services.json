@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "311580690931",
+    "firebase_url": "https://medisageapp-366f8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "medisageapp-366f8",
+    "storage_bucket": "medisageapp-366f8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311580690931:android:3a1b85981628c93badea86",
+        "android_client_info": {
+          "package_name": "com.example.medisageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311580690931-bkbg7kgka867qrfoej6orgb5qssr4h20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medisageapp",
+            "certificate_hash": "db2a2edb30b9dca239f38bb35cf3aeddee0b55d6"
+          }
+        },
+        {
+          "client_id": "311580690931-7j4b26d5p5cq5i09975sts5hvd7ba81r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsBS7tDuOriqn1DBVrSUJfo85-OwKXH2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311580690931-7j4b26d5p5cq5i09975sts5hvd7ba81r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

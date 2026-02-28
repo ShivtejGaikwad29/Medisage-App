@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heart Risk Assessment"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Card Container -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            android:padding="16dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- ===== All EditTexts fixed ===== -->
+
+                <EditText
+                    android:id="@+id/etMale"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Gender (1 = Male, 0 = Female)"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etAge"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Age"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etEducation"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Education Level (1–4)"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etSmoker"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Current Smoker (1 = Yes, 0 = No)"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etCigs"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Cigarettes per day"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etBPMeds"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="On BP Medication (1 = Yes, 0 = No)"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etStroke"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Previous Stroke (1 = Yes, 0 = No)"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etHyp"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Hypertension (1 = Yes, 0 = No)"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etDiabetes"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Diabetes (1 = Yes, 0 = No)"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etChol"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Total Cholesterol"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etSysBP"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Systolic BP"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etDiaBP"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Diastolic BP"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etBMI"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="BMI"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etHeartRate"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Heart Rate"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/etGlucose"
+                    style="@style/MedicalInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Glucose Level"
+                    android:inputType="numberDecimal" />
+
+                <!-- Predict Button -->
+                <Button
+                    android:id="@+id/btnPredictRisk"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Predict Heart Disease Risk"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:backgroundTint="#0F9D8A"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="12dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Result Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:backgroundTint="#E8F5F2">
+
+            <TextView
+                android:id="@+id/tvResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result will appear here"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0F4C81" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

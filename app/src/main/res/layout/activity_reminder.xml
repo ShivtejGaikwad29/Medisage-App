@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F7FA">
+
+    <!-- Scan Prescription Button -->
+    <Button
+        android:id="@+id/btnScanPrescription"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Scan Prescription Image"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:backgroundTint="#16A34A"
+        android:textColor="#FFFFFF"
+        android:elevation="6dp" />
+
+    <!-- Extracted Data Box -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="20dp"
+        android:background="#E5E7EB">
+
+        <TextView
+            android:id="@+id/tvExtractedData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Extracted medicine info will appear here..."
+            android:padding="16dp"
+            android:textColor="#111827"
+            android:textSize="15sp" />
+    </ScrollView>
+    <!-- Reminder Button -->
+    <Button
+        android:id="@+id/btnSetReminder"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="Set Daily Reminder (8 AM)"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:backgroundTint="#1565C0"
+        android:textColor="#FFFFFF"
+        android:elevation="6dp" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+# =========================
+# Android / Gradle
+# =========================
+.gradle/
+build/
+*/build/
+
+# Local configuration (contains secrets)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python backups (your folder)
+# =========================
+python backup/
+*.ipynb_checkpoints/
+*.pkl
+*.csv
