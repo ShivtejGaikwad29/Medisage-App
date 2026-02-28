@@ -92,6 +92,18 @@ Create or edit:
 ```
 local.properties
 ```
+## Firebase Configuration
+
+This project includes a Firebase configuration for demonstration purposes.
+
+You can optionally use your own Firebase project:
+
+1. Create a Firebase project
+2. Add Android app with package:
+   com.example.medisageapp
+3. Download your own `google-services.json`
+4. Replace:
+   app/google-services.json
 
 Add your own HuggingFace token:
 
